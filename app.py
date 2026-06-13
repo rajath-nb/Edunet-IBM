@@ -24,7 +24,7 @@ st.markdown("""
 load_dotenv()
 
 # Configure Gemini
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6LroP4Xdk51llGF096DlQ58-6ridGUlAuQjjGxYLBuzzA"))
+genai.configure(api_key=os.environ.get("AQ.Ab8RN6IAd26qfafRMwiHOnGeJ1P_KmUJpDhLezkF5W-6OSI8Gg"))
 
 @st.cache_resource
 def load_models():
